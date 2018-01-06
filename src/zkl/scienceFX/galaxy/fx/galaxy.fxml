@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<GridPane gridLinesVisible="true" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="zkl.scienceFX.galaxy.fx.GalaxyController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="b_start" mnemonicParsing="false" onMouseClicked="#onStartButtonClicked" text="Start" />
+      <Canvas fx:id="canvas" height="720.0" onKeyPressed="#keyEvent" onKeyReleased="#keyEvent" onMouseDragged="#mouseDrag" onMouseReleased="#mouseRelease" width="1280.0" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
